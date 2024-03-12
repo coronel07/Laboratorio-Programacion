@@ -1,0 +1,84 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+}
+
+header, nav, main, footer {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+header {
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+}
+
+main {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    text-align: center;
+    color: #666;
+}
+
+/* Estilos para los encabezados */
+h1, h2, h3, h4 {
+    color: #333;
+}
+
+/* Estilos para resaltar los nombres de los equipos */
+strong {
+    color: #d80000;
+}
+
+/* Estilos para la información de los clubes */
+.club-info {
+    margin-bottom: 30px;
+}
+
+.club-info h4 {
+    color: #007bff;
+    text-align: center;
+}
+
+.club-info img {
+    display: block;
+    margin: 0 auto 10px;
+    max-width: 300px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.carousel {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.slide {
+    display: none;
+    width: 100%;
+}
+
+.caption {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 5px;
+    text-align: center;
+}
