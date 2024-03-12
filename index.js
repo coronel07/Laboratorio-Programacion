@@ -1,22 +1,26 @@
+document.addEventListener("DOMContentLoaded", function () {
+    const carousels = document.querySelectorAll('.carousel');
 
-    let slideIndex = 0;
-    showSlides();
+    carousels.forEach(function (carousel) {
+        const slides = carousel.querySelectorAll('.slide');
+        let slideIndex = 0;
 
-    function showSlides() {
-        let slides = document.getElementsByClassName("slide");
-        let captions = document.getElementsByClassName("caption");
+        showSlides();
 
-        for (let i = 0; i < slides.length; i++) {
-            slides[i].style.display = "none";
-            captions[i].style.display = "none";
+        function showSlides() {
+            slides.forEach(function (slide) {
+                slide.style.display = "none";
+            });
+
+            slideIndex++;
+            if (slideIndex > slides.length) {
+                slideIndex = 1;
+            }
+
+            slides[slideIndex - 1].style.display = "block";
+
+            setTimeout(showSlides, 2000); // Cambia cada 2 segundos
         }
-
-        slideIndex++;
-        if (slideIndex > slides.length) { slideIndex = 1 }
-
-        slides[slideIndex - 1].style.display = "block";
-        captions[slideIndex - 1].style.display = "block";
-
-        setTimeout(showSlides, 2000); // Cambia cada 2 segundos
-    }
+    });
+});
 

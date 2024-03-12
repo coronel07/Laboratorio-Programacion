@@ -1,42 +1,87 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi Sitio Web</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <nav>
-    </nav>
+
     <main>
         <h2>Serie A: La Liga Italiana</h2>
-        <p>La Serie A, oficialmente conocida como la Lega Nazionale Professionisti Serie A, es la máxima categoría del fútbol profesional en Italia. Fue fundada en 1898, lo que la convierte en una de las ligas más antiguas del mundo. Originalmente se llamaba "Prima Categoria" y consistía en un torneo eliminatorio entre los clubes regionales italianos.</p>
-        <p>Con el tiempo, la Serie A ha evolucionado para convertirse en una de las ligas más prestigiosas y competitivas del mundo. Se caracteriza por su estilo de juego táctico, la habilidad técnica de sus jugadores y una fuerte pasión por el fútbol en todo el país.</p>
-        <p>La liga italiana ha sido el hogar de muchos clubes legendarios, como el <strong>AC Milan</strong>, <strong>Juventus</strong>, <strong>Inter de Milán</strong>, <strong>Roma</strong> y <strong>Napoli</strong>. Estos equipos han protagonizado algunos de los momentos más memorables en la historia del fútbol.</p>
-        <p>Además de la rica historia de la Serie A, la liga también ha sido un semillero para algunos de los jugadores más talentosos del mundo. Figuras como <strong>Diego Maradona</strong>, <strong>Michel Platini</strong>, <strong>Franco Baresi</strong> y <strong>Paolo Maldini</strong> han dejado una marca indeleble en la historia del fútbol italiano.</p>
+        <p>La Serie A, oficialmente conocida como la Lega Nazionale Professionisti Serie A, es la máxima categoría del
+            fútbol profesional en Italia. Fue fundada en 1898, lo que la convierte en una de las ligas más antiguas del
+            mundo. Originalmente se llamaba "Prima Categoria" y consistía en un torneo eliminatorio entre los clubes
+            regionales italianos.</p>
+        <p>Con el tiempo, la Serie A ha evolucionado para convertirse en una de las ligas más prestigiosas y
+            competitivas del mundo. Se caracteriza por su estilo de juego táctico, la habilidad técnica de sus jugadores
+            y una fuerte pasión por el fútbol en todo el país.</p>
+        <p>La liga italiana ha sido el hogar de muchos clubes legendarios, como el <strong>AC Milan</strong>,
+            <strong>Juventus</strong>, <strong>Inter de Milán</strong>, <strong>Roma</strong> y <strong>Napoli</strong>.
+            Estos equipos han protagonizado algunos de los momentos más memorables en la historia del fútbol.</p>
+        <p>Además de la rica historia de la Serie A, la liga también ha sido un semillero para algunos de los jugadores
+            más talentosos del mundo. Figuras como <strong>Diego Maradona</strong>, <strong>Michel Platini</strong>,
+            <strong>Franco Baresi</strong> y <strong>Paolo Maldini</strong> han dejado una marca indeleble en la
+            historia del fútbol italiano.</p>
         <h3>Mejores Jugadores Históricos</h3>
-        <div class="club-info">
+
+        <div class="club-info" id="ac-milan">
             <h4>AC Milan</h4>
             <div class="carousel">
-                <img src="images/acmilan1.jpg" alt="AC Milan 1" class="slide" onmouseover="showDescription('desc1')" onmouseout="hideDescription('desc1')">
-                <img src="images/acmilan2.jpg" alt="AC Milan 2" class="slide" onmouseover="showDescription('desc2')" onmouseout="hideDescription('desc2')">
-                <img src="images/acmilan3.jpg" alt="AC Milan 3" class="slide" onmouseover="showDescription('desc3')" onmouseout="hideDescription('desc3')">
-                <div id="desc1" class="caption"></div>
-                <div id="desc2" class="caption"></div>
-                <div id="desc3" class="caption"></div>
+                <div class="slide-container">
+                    <img src="images/acmilan1.jpg" alt="AC Milan 1" class="slide" onclick="pauseSlides()">
+                </div>
+                <div class="slide-container">
+                    <img src="images/acmilan2.jpg" alt="AC Milan 2" class="slide" onclick="pauseSlides()">
+                </div>
+                <div class="slide-container">
+                    <a href="biografia.html">
+                        <img src="images/acmilan3.jpg" alt="AC Milan 3" class="slide" id="ac-milan-image">
+                    </a>
+                </div>
+                               
             </div>
+            <p>Entre los jugadores más destacados en la historia del AC Milan se encuentran <strong>Paolo
+                    Maldini</strong>, <strong>Franco Baresi</strong>, <strong>Andriy Shevchenko</strong>, y
+                <strong>Kaká</strong>.</p>
         </div>
-        
-        <div class="club-info">
+
+        <div class="club-info" id="juventus">
             <h4>Juventus</h4>
-            <img src="images/juventus.jpg" alt="Juventus">
-            <p>Entre los jugadores más destacados en la historia de la Juventus se encuentran <strong>Alessandro Del Piero</strong>, <strong>Gianluigi Buffon</strong>, <strong>Michel Platini</strong>, y <strong>Roberto Baggio</strong>.</p>
+            <div class="carousel">
+                <div class="slide-container">
+                    <img src="images/juventus1.jpg" alt="Juventus 1" class="slide" onclick="pauseSlides()">
+                </div>
+                <div class="slide-container">
+                    <img src="images/juventus2.jpg" alt="Juventus 2" class="slide" onclick="pauseSlides()">
+                </div>
+                <div class="slide-container">
+                    <img src="images/juventus3.jpg" alt="Juventus 3" class="slide" onclick="pauseSlides()">
+                </div>
+            </div>
+            <p>Entre los jugadores más destacados en la historia de la Juventus se encuentran <strong>Alessandro Del
+                    Piero</strong>, <strong>Gianluigi Buffon</strong>, <strong>Michel Platini</strong>, y
+                <strong>Roberto Baggio</strong>.</p>
         </div>
-        <div class="club-info">
+
+        <div class="club-info" id="inter-milan">
             <h4>Inter de Milán</h4>
-            <img src="images/intermilan.jpg" alt="Inter de Milán">
-            <p>El Inter de Milán ha contado con grandes figuras como <strong>Javier Zanetti</strong>, <strong>Giuseppe Meazza</strong>, <strong>Luca Modric</strong>, y <strong>Ronaldo Nazário</strong>.</p>
+            <div class="carousel">
+                <div class="slide-container">
+                    <img src="images/intermilan1.jpg" alt="Inter de Milán 1" class="slide" onclick="pauseSlides()">
+                </div>
+                <div class="slide-container">
+                    <img src="images/intermilan2.jpg" alt="Inter de Milán 2" class="slide" onclick="pauseSlides()">
+                </div>
+                <div class="slide-container">
+                    <img src="images/intermilan3.jpg" alt="Inter de Milán 3" class="slide" onclick="pauseSlides()">
+                </div>
+            </div>
+            <p>El Inter de Milán ha contado con grandes figuras como <strong>Javier Zanetti</strong>, <strong>Giuseppe
+                    Meazza</strong>, <strong>Luca Modric</strong>, y <strong>Ronaldo Nazário</strong>.</p>
         </div>
     </main>
     <footer>
@@ -44,4 +89,5 @@
     </footer>
     <script src="index.js"></script>
 </body>
+
 </html>
