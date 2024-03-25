@@ -1,31 +1,32 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f5f5f5;
+    background-color: #4b4c2c
 }
 
 .container {
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
-    background-color: #ffffff;
+    background-color: #b7b094;  
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     text-align: center;
+    border: 2px solid #333; 
 }
 
-h1 {
-    color: #333;
-}
-
-p {
-    line-height: 1.6;
+.flags {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .flag {
     width: 150px;
     height: auto;
-    margin: 20px;
+    margin: 10px;
+    border: 2px solid #333;
+    border-radius: 10px; 
 }
 
 .president {
@@ -36,19 +37,25 @@ p {
     border: 3px solid #333;
 }
 
+
 .vs {
-    font-size: 24px;
+    font-size: 130px;
     font-weight: bold;
-    margin: 20px 0;
+    margin: 10px 0;
+    color: #ce4040; /* Rojo para resaltar */
+}
+
+h1 {
+    font-family: 'Georgia', serif;
+    color: #333; /* Título con letra más oscura */
 }
 
 ul {
     text-align: left;
     margin-left: 20px;
-}
-
-li {
-    margin-bottom: 10px;
+    border-left: 3px solid #ce4040; /* Borde izquierdo rojo */
+    padding-left: 10px;
+    list-style-type: none;
 }
 
 footer {
@@ -58,6 +65,6 @@ footer {
     text-align: center;
 }
 
-footer p {
-    margin: 0;
+footer {
+    text-align: center;
 }
