@@ -1,92 +1,135 @@
-    /* Estilos generales */
-    body {
-        font-family: Arial, sans-serif;
-        margin: 0;
-        padding: 0;
-        line-height: 1.6;
-        background-color: #f9f9f9;
-    }
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    border: 2px solid black; 
 
-    header, nav, main, footer {
-        width: 80%;
-        margin: 0 auto;
-        padding: 20px 0;
-    }
+}
 
-    header {
-        text-align: center;
-    }
+.container {
+    border: 1px solid black; 
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    background-color: #f9f9f9;
+}
 
-    nav {
-        text-align: center;
-    }
+.page-container {
+    padding: 50px; 
+    background-color: #b1aeb6;
+}
 
-    main {
-        background-color: #fff;
-        padding: 20px;
-        border-radius: 5px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    }
+header {
+    text-align: center;
+}
 
-    footer {
-        text-align: center;
-        color: #666;
-    }
+nav {
+    text-align: center;
+}
 
-    /* Estilos para los encabezados */
-    h1, h2, h3, h4 {
-        color: #333;
-    }
+.main {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); 
+}
 
-    /* Estilos para resaltar los nombres de los equipos */
-    strong {
-        color: #d80000;
-    }
+footer {
+    text-align: center;
+    color: #666;
+}
 
-    /* Estilos para la información de los clubes */
-    .club-info {
-        margin-bottom: 30px;
-    }
+h1, h2, h3, h4 {
+    color: #333;
+}
 
-    .club-info h4 {
-        color: #007bff;
-        text-align: center;
-    }
+strong {
+    color: #d80000;
+}
 
-    .slide-container img {
-        display: block;
-        margin: 0 auto;
-        width: 200px; /* Ancho deseado */
-        height: 150px; /* Alto deseado */
-        object-fit: cover; /* Ajusta la imagen para llenar el contenedor sin distorsión */
-        border-radius: 5px;
-        box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
-        transition: transform 0.3s ease; /* Agrega transición suave */
-    }
+.club-info {
+    background-color: #f0f0f0; 
+    border: 1px solid #000000; 
+    border-radius: 10px; 
+    padding: 20px;
+    margin-bottom: 30px;
+}
 
-    .carousel:hover .slide-container img {
-        transform: scale(1.1); /* Escala la imagen al 110% en hover */
-    }
+.club-info h4 {
+    color: #007bff; 
+    text-align: center; 
+}
 
+.slide-container img {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+}
 
-    .caption {
-        position: absolute;
-        bottom: 10px;
-        left: 0;
-        width: 100%;
-        color: #fff;
-        padding: 5px;
-        text-align: center;
-    }
+.carousel:hover .slide-container img {
+    transform: scale(1.1);
+}
 
-    .carousel {
-        position: relative;
-        width: 100%;
-        overflow: hidden;
-    }
+.club-info p {
+    color: #333;
+}
 
-    .slide {
-        display: none;
-        width: 100%;
-    }
+.club-info a {
+    color: #007bff; 
+}
 
+.club-info a:hover {
+    color: #0056b3;
+}
+
+.caption {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    width: 100%;
+    color: #fff;
+    padding: 5px;
+    text-align: center;
+}
+
+.carousel {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.slide {
+    display: none;
+    width: 100%;
+}
+
+.custom-box {
+    background-color: #f0f0f0;
+    border: 20px solid #000000;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 50px 50px 15px -10px blacK;
+}
+
+.custom-box h2 {
+    color: #00FF00;
+}
+
+.custom-box p {
+    color: #333;
+}
+
+.custom-box a {
+    color: #007bff;
+}
+
+.custom-box a:hover {
+    color: #0056b3;
+}
