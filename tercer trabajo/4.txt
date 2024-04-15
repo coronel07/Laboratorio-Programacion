@@ -1,0 +1,11 @@
+frutas = ["manzana", "banana", "naranja", "uva", "sandía", "kiwi", "piña", "pera", "melón"]
+
+print("Algunas frutas de la lista:")
+print(frutas[0])  # Primera fruta
+print(frutas[3])  # Cuarta fruta
+print(frutas[-1]) # Última fruta
+print()
+
+print("Rebanadas de la lista de frutas:")
+print(frutas[1:4])  # Rebanada desde la segunda fruta hasta la cuarta fruta
+print(frutas[5:])   # Rebanada desde la sexta fruta hasta el final

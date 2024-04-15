@@ -1,0 +1,70 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #4b4c2c
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #b7b094;  
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border: 2px solid #333; 
+}
+
+.flags {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flag {
+    width: 150px;
+    height: auto;
+    margin: 10px;
+    border: 2px solid #333;
+    border-radius: 10px; 
+}
+
+.president {
+    width: 200px;
+    height: auto;
+    margin: 20px;
+    border-radius: 50%;
+    border: 3px solid #333;
+}
+
+
+.vs {
+    font-size: 130px;
+    font-weight: bold;
+    margin: 10px 0;
+    color: #ce4040; /* Rojo para resaltar */
+}
+
+h1 {
+    font-family: 'Georgia', serif;
+    color: #333; /* Título con letra más oscura */
+}
+
+ul {
+    text-align: left;
+    margin-left: 20px;
+    border-left: 3px solid #ce4040; /* Borde izquierdo rojo */
+    padding-left: 10px;
+    list-style-type: none;
+}
+
+footer {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #666;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}

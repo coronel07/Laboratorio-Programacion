@@ -1,0 +1,15 @@
+import random
+cad = "reversa"
+
+def caracteresCad(cad):
+    numRandom = random.randint(1, len(cad) - 1)
+    
+    primerTerm = cad[0]
+    ultTerm = cad[-1]
+    randomTerm = cad[numRandom]
+    rebanada = cad[2:4]
+
+    print("Primer termino:", primerTerm, "Ultimo termino:", ultTerm, "Termino random:", randomTerm, "Una rebanada de cadena", rebanada)
+
+caracteresCad(cad)
+        
