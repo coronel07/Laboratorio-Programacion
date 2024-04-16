@@ -1,0 +1,7 @@
+x = 5
+x += 2  # Equivalente a x = x + 2
+print("El valor de x después de incrementar es:", x)
+
+y = 10
+y -= 3  # Equivalente a y = y - 3
+print("El valor de y después de decrementar es:", y)

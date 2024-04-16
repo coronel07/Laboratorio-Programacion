@@ -1,0 +1,20 @@
+nombre = input("Por favor, ingresa tu nombre: ")
+edad = int(input("Por favor, ingresa tu edad: "))
+ciudad = input("Por favor, ingresa tu ciudad de residencia: ")
+
+año_actual = 2024
+año_nacimiento = año_actual - edad
+
+print("Hola,", nombre + ".")
+print("Tu ciudad de residencia es", ciudad + ".")
+print("Naciste aproximadamente en el año", año_nacimiento, ".")
+
+if edad > 18:
+    print("Eres mayor de 18 años.")
+else:
+    print("Eres menor de 18 años.")
+
+if edad % 5 == 0:
+    print("Tu edad es un múltiplo de 5.")
+else:
+    print("Tu edad no es un múltiplo de 5.")

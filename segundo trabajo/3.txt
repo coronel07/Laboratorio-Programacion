@@ -1,0 +1,8 @@
+# Suma
+print("Suma:", 5 + 3)
+# Resta
+print("Resta:", 7 - 2)
+# Multiplicación
+print("Multiplicación:", 4 * 6)
+# División
+print("División:", 8 / 2)

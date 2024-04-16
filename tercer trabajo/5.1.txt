@@ -1,0 +1,10 @@
+frutas = ["manzana", "banana", "naranja", "uva", "sandía", "kiwi", "piña", "pera", "melón"]
+
+frutas.extend(["cereza", "limón", "mandarina"])
+
+frutas.append("durazno")
+frutas.append("fresa")
+
+print("Lista actualizada de frutas:")
+for fruta in frutas:
+    print(fruta)

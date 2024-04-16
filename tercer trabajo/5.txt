@@ -1,0 +1,5 @@
+frutas = ["manzana", "banana", "naranja", "uva", "sandía", "kiwi", "piña", "pera", "melón"]
+
+print("Lista de frutas:")
+for fruta in frutas:
+    print(fruta)

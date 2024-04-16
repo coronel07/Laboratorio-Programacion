@@ -1,0 +1,6 @@
+num1 = input("ingrese un numero: ") 
+num2 = input("ingrese un numero: ")
+if num1 == num2:
+  print("son iguales")
+else: 
+  print("son desiguales")

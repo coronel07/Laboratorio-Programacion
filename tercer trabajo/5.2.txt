@@ -1,0 +1,8 @@
+frutas = ["manzana", "banana", "naranja", "uva", "sandía", "kiwi", "piña", "pera", "melón"]
+
+fruta_especifica = "pera"
+
+if fruta_especifica in frutas:
+    print(f"{fruta_especifica} está en la lista de frutas.")
+else:
+    print(f"{fruta_especifica} no está en la lista de frutas.")
