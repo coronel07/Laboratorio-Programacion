@@ -1,0 +1,10 @@
+def contar_letra(cadena):
+  contador = 0
+  for caracter in cadena:
+      if caracter == 'a':
+          contador += 1
+  return contador
+
+texto = "abecedario"
+contador = contar_letra(texto)
+print(contador)
