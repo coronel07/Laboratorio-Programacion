@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}Copa Renault{% endblock %}</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    {% include 'navbar.html' %}
+    <main>
+        {% block content %}{% endblock %}
+    </main>
+</body>
+</html>
