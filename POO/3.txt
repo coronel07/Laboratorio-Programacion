@@ -1,0 +1,3 @@
+Si me gustaría modificar el diseño para incluir otros tipos de vehículos, trataría de establecer que la clase base `Vehiculo ́ sea lo más genérica posible, con los atributos y métodos que todos los vehículos comparten. A continuación, al crear un nuevo tipo de vehículo, solo tendría que crear una nueva categoría que pertenece al `Vehiculo` y añadirlo los atributos o métodos específicos que necesite.
+
+Otra acción que llevaría a cabo es establecer una función que se ocupara de "fabricar" vehículos de acuerdo con el tipo que le solicite, de esta forma, no tendría que estar modificando el código cada vez que desee incorporar un nuevo tipo de vehículo. Esto posibilitaría que el programa sea más sencillo de extender en el futuro .
